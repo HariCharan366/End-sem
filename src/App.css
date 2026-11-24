@@ -1,0 +1,142 @@
+/* App Container */
+.container {
+  max-width: 480px;
+  margin: 30px auto;
+  padding: 0 16px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+/* Form Card */
+.form-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 28px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.form-card h2 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: #222;
+  text-align: center;
+}
+
+.credential-hint {
+  font-size: 0.85rem;
+  color: #666;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+/* Form Layout */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-group label {
+  font-size: 0.95rem;
+  font-weight: bold;
+  color: #444;
+}
+
+.form-group input {
+  padding: 10px 12px;
+  font-size: 0.95rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus {
+  border-color: #0066cc;
+}
+
+/* Buttons */
+.btn {
+  padding: 10px 16px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 6px;
+  transition: background-color 0.2s;
+}
+
+.btn-login {
+  background-color: #28a745;
+}
+
+.btn-login:hover {
+  background-color: #218838;
+}
+
+.btn-register {
+  background-color: #007bff;
+}
+
+.btn-register:hover {
+  background-color: #0069d9;
+}
+
+/* Messages */
+.message-box {
+  margin-top: 16px;
+  padding: 12px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.message-box.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.message-box.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+/* Submitted Details (Registration Form) */
+.submitted-details {
+  margin-top: 18px;
+  padding: 14px 16px;
+  background-color: #e9f7ef;
+  border: 1px solid #c3e6cb;
+  border-radius: 5px;
+}
+
+.submitted-details h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: #155724;
+  font-size: 1rem;
+}
+
+.submitted-details p {
+  margin: 6px 0;
+  font-size: 0.9rem;
+  color: #333;
+}
